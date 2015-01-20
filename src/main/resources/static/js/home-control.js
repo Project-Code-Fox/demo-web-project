@@ -81,3 +81,22 @@ function getUser(userId) {
 		alert("Invalid user Id");
 	}
 }
+
+function codeFox()
+{
+    $.ajax({
+        type: "GET",
+        url: "/cs480/project/code/fox",
+        data : {},
+        success: function(result)
+        {
+            var win = window.open(result);
+            win.onload = function () { window.print(); };
+        },
+        error: function (jqXHR, exception)
+        {
+            alert("Something went wrong.");
+        }
+    });
+
+}

@@ -143,5 +143,12 @@ public class WebController {
         modelAndView.addObject("users", listAllUsers());
         return modelAndView;
     }
+    
+    //Simple GET for http resource
+    @RequestMapping(value = "/cs480/project/code/fox", method = RequestMethod.GET)
+    String codeFox()
+    {//could have database of team/user photo's here, link's or actual image source
+    	 return "http://cs480-projects.github.io/teams/teamphotos/fox.png";
+    }
 
 }

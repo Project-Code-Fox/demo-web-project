@@ -82,6 +82,15 @@
                 </tr>
             </table>
         </div>
+        
+        <hr>
+        
+        <div>
+        	<label>The Cool Button</label><br>
+        	<button onclick="codeFox()">Project Code Fox</button><br><br>	
+        </div>
+        	
+        
     </div>
     
     
