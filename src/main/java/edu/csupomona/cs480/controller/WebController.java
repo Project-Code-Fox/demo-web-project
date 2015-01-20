@@ -52,6 +52,10 @@ public class WebController {
         return "OK";
     }
     
+    /**
+     * Added by Javier Sanchez :)
+     * @return
+     */
     @RequestMapping(value = "/cs480/sayHi", method = RequestMethod.GET)
     String sayHello() {
     	// You can replace this with other string,
