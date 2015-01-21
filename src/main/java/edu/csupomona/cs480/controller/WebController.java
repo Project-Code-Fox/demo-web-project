@@ -65,6 +65,18 @@ public class WebController {
     }
 
     /**
+     * This is Kevin Hammon, same basic idea as Javier tho since I'm new to this and suck at Java 
+     * @return
+     */
+    @RequestMapping(value = "/cs480/wassup", method = RequestMethod.GET)
+    String wassup() {
+    	// You can replace this with other string,
+    	// and run the application locally to check your changes
+    	// with the URL: http://localhost:8080/
+        return "Kevin says wassup...and linux sucks :P !";
+    }
+
+    /**
      * This is a simple example of how to use a data manager
      * to retrieve the data and return it as an HTTP response.
      * <p>
