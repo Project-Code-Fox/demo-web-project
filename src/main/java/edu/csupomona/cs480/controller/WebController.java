@@ -65,6 +65,15 @@ public class WebController {
     }
 
     /**
+     * Added by Eric Chi
+     * @return  The real deal.
+     */
+    @RequestMapping(value = "/cs480/chipotle", method = RequestMethod.GET)
+    String chipotle()
+    {
+    	return "Oh my god Chipotleeee, Chipotle is my liiiiife";
+    }
+    /**
      * This is Kevin Hammon, same basic idea as Javier tho since I'm new to this and suck at Java 
      * @return
      */
